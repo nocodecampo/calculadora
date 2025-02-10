@@ -12,11 +12,13 @@ header{
     text-align: center;
     padding: 24px;
     background-color:aquamarine;
+    position: fixed;
+    width: 100%;
 }
 
 section{
     padding: 48px;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,5 +67,18 @@ div.pantalla input::placeholder{
 }
 
 .botones .btn{
-    padding: 8px;
+    padding: 12px 4px;
+    cursor: pointer;
+    border: solid 1px #a2a2a2;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.igual{
+    background-color: green;
+    color: #FFFFFF;
+}
+
+.operador{
+    background-color: aquamarine;
 }
